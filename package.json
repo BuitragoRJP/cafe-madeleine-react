@@ -1,0 +1,22 @@
+{
+  "name": "cafe-de-la-madeleine",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Propuesta web animada para Café de la Madeleine (Teusaquillo, Bogotá)",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "node --test src/lib/schedule.test.js"
+  },
+  "dependencies": {
+    "framer-motion": "11.11.17",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "4.3.4",
+    "vite": "5.4.11"
+  }
+}
